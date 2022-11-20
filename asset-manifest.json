@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dba-coming-soon/static/css/main.8209da3a.css",
+    "main.js": "/dba-coming-soon/static/js/main.3637862e.js",
+    "static/media/dba_logo.svg": "/dba-coming-soon/static/media/dba_logo.5838e9f89facc90b0f979553e9c05d12.svg",
+    "index.html": "/dba-coming-soon/index.html",
+    "static/media/instagram.svg": "/dba-coming-soon/static/media/instagram.2b50247a75467b0ea295ec7bd70eaea4.svg",
+    "static/media/linkedin.svg": "/dba-coming-soon/static/media/linkedin.8fdff9c1888629056f67fb045c26fdbb.svg",
+    "main.8209da3a.css.map": "/dba-coming-soon/static/css/main.8209da3a.css.map",
+    "main.3637862e.js.map": "/dba-coming-soon/static/js/main.3637862e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8209da3a.css",
+    "static/js/main.3637862e.js"
+  ]
+}
