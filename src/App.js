@@ -1,7 +1,7 @@
 import "./App.css";
 import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, Button } from "react-bootstrap";
 import Logo from "./assets/logo/dba_logo.svg";
 import InstaLogo from "./assets/links/instagram.svg";
 import LinkedLogo from "./assets/links/linkedin.svg";
@@ -57,14 +57,14 @@ function App() {
                         alt="Instagram Link"
                       />
                     </a>
-                    <a href="">
+                    <Button variant="link">
                       <Image
                         width="90%"
                         height="90%"
                         src={LinkedLogo}
                         alt="LinkedIn Link"
                       />
-                    </a>
+                    </Button>
                   </span>
                 </div>
               </div>
