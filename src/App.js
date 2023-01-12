@@ -14,16 +14,12 @@ function App() {
           <Row className="space">
             <Col md={6} sm={12}>
               <div className="logo-container">
-                <div className="logo img-fluid">
                   <Image
                     fluid
-                    width="100%"
-                    height="100%"
                     src={Logo}
                     alt="Dancing Bees Apothecary Logo"
                     className="image"
                   />
-                </div>
               </div>
             </Col>
             <Col md={6} sm={12}>
@@ -40,11 +36,11 @@ function App() {
                     <br />
                     Coming soon!
                   </p>
-                  <small>
+                  <p>
                     Dancing Bees Apothecary is a medical cannabis processing
                     establishment with an “Intent to License” in Salt Lake City,
                     Utah.
-                  </small>
+                  </p>
                 </div>
                 <div className="links">
                   Find us on: <br />
