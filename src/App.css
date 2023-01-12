@@ -11,6 +11,7 @@
   display: inline-block;
   border: 2px solid #E6D361;
   margin: 25px;
+  overflow: auto;
 }
 
 .title {
@@ -36,7 +37,12 @@
   justify-content: center;
   align-content: center;
   height: 100%;
-  
+}
+
+@media (max-width: 768px) {
+  .text-container {
+    margin-top: 10px;
+  }
 }
 
 .text {
