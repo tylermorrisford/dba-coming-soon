@@ -11,10 +11,10 @@ function App() {
     <div className="App">
       <Card className="child">
         <Card.Body>
-          <Row>
+          <Row className="space">
             <Col md={6} sm={12}>
               <div className="logo-container">
-                <div className="logo">
+                <div className="logo img-fluid">
                   <Image
                     fluid
                     width="100%"
