@@ -11,7 +11,7 @@
   display: inline-block;
   border: 2px solid #E6D361;
   margin: 25px;
-  overflow: auto;
+  justify-content: space-between
 }
 
 .title {
