@@ -5,6 +5,7 @@ import { Col, Row } from "react-bootstrap";
 import Logo from "./assets/logo/dba_logo.svg";
 import InstaLogo from "./assets/links/instagram.svg";
 import LinkedLogo from "./assets/links/linkedin.svg";
+import { InstagramLink, LinkedInLink } from "./links";
 
 function App() {
   return (
@@ -45,7 +46,7 @@ function App() {
                 <div className="links">
                   Find us on: <br />
                   <span>
-                    <a href="https://www.instagram.com/dancingbeesapothecary/?igshid=YmMyMTA2M2Y%3D">
+                    <a href={InstagramLink}>
                       <Image
                         width="100%"
                         height="100%"
@@ -53,7 +54,7 @@ function App() {
                         alt="Instagram Link"
                       />
                     </a>
-                    <a href="#">
+                    <a href={LinkedInLink}>
                       <Image
                         width="90%"
                         height="90%"
